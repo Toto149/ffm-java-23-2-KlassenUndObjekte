@@ -7,6 +7,7 @@ public class Auto {
     String farbe;
     int baujahr;
     int gefahreneKilometer;
+    int geschwindigkeit;
     int maximaleGeschwindigkeit;
     int anzahlReifen;
 
@@ -14,6 +15,9 @@ public class Auto {
 
     public Auto(){
 
+    }
+    public Auto(int geschwindigkeit){
+        this.geschwindigkeit = geschwindigkeit;
     }
     public Auto(String marke, String modell, String farbe, int baujahr, int gefahreneKilometer,
                 int maximaleGeschwindigkeit, int anzahlReifen, int ps){
@@ -29,6 +33,8 @@ public class Auto {
     public void startet(){
         System.out.println("Dieses Auto ist gestartet und kann jetzt losfahren");
     }
-
+    public void beschleunigt(){
+        geschwindigkeit++;
+    }
 
 }
