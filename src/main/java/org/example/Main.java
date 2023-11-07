@@ -8,5 +8,8 @@ public class Main {
         auto1.beschleunigt();
         System.out.println(auto1.geschwindigkeit);
 
+        Person person = new Person("Hans", 23, 'M');
+        person.vorstellen();
+
     }
 }
