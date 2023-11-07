@@ -15,7 +15,6 @@ public class Auto {
     public Auto(){
 
     }
-
     public Auto(String marke, String modell, String farbe, int baujahr, int gefahreneKilometer,
                 int maximaleGeschwindigkeit, int anzahlReifen, int ps){
         this.marke = marke;
